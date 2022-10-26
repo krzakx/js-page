@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>judytasobolak.pl</title>
+    <link href="https://github.com/krzakx/js-page/feed.xml" rel="self" />
+    <link href="https://github.com/krzakx/js-page" />
+    <updated>2022-10-26T22:27:52+02:00</updated>
+    <author>
+        <name>Judyta Sobolak</name>
+    </author>
+    <id>https://github.com/krzakx/js-page</id>
+
+    <entry>
+        <title>Hello world</title>
+        <author>
+            <name>Judyta Sobolak</name>
+        </author>
+        <link href="https://github.com/krzakx/js-page/hello-world/"/>
+        <id>https://github.com/krzakx/js-page/hello-world/</id>
+
+        <updated>2022-10-26T22:27:52+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Zaczynam powoli uzupełniać content, potrzeba dużo grafiki
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Zaczynam powoli uzupełniać content, potrzeba dużo grafiki</p>
+
+            ]]>
+        </content>
+    </entry>
+</feed>

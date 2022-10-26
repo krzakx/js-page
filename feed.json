@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "judytasobolak.pl",
+    "description": "",
+    "home_page_url": "https://github.com/krzakx/js-page",
+    "feed_url": "https://github.com/krzakx/js-page/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Judyta Sobolak"
+    },
+    "items": [
+        {
+            "id": "https://github.com/krzakx/js-page/hello-world/",
+            "url": "https://github.com/krzakx/js-page/hello-world/",
+            "title": "Hello world",
+            "summary": "Zaczynam powoli uzupełniać content, potrzeba dużo grafiki",
+            "content_html": "<p>Zaczynam powoli uzupełniać content, potrzeba dużo grafiki</p>\n",
+            "author": {
+                "name": "Judyta Sobolak"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-10-26T22:27:12+02:00",
+            "date_modified": "2022-10-26T22:27:52+02:00"
+        }
+    ]
+}
