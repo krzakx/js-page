@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <title>judytasobolak.pl</title>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Kancelaria Adwokacka Judyta Sobolak</title>
     <link href="https://judytasobolak.pl/feed.xml" rel="self" />
     <link href="https://judytasobolak.pl" />
-    <updated>2022-10-26T22:27:52+02:00</updated>
+    <updated>2022-11-18T22:18:51+01:00</updated>
     <author>
         <name>Judyta Sobolak</name>
     </author>
     <id>https://judytasobolak.pl</id>
 
+    <entry>
+        <title>Terminarz</title>
+        <author>
+            <name>Judyta Sobolak</name>
+        </author>
+        <link href="https://judytasobolak.pl/terminarz/"/>
+        <id>https://judytasobolak.pl/terminarz/</id>
+        <media:content url="https://judytasobolak.pl/media/posts/3/behnam-norouzi-PDVwLzOxKQE-unsplash.jpg" medium="image" />
+
+        <updated>2022-11-18T22:18:51+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://judytasobolak.pl/media/posts/3/behnam-norouzi-PDVwLzOxKQE-unsplash.jpg" alt="" />
+                    Czy co&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://judytasobolak.pl/media/posts/3/behnam-norouzi-PDVwLzOxKQE-unsplash.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Czy co tam chcesz</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Hello world</title>
         <author>
@@ -16,15 +39,18 @@
         </author>
         <link href="https://judytasobolak.pl/hello-world/"/>
         <id>https://judytasobolak.pl/hello-world/</id>
+        <media:content url="https://judytasobolak.pl/media/posts/1/Copy-of-Blush-Clean-Minimal-Step-by-Step-List-and-Call-to-Action-Carousel-Instagram-Post-1080-x-1080-px.png" medium="image" />
 
-        <updated>2022-10-26T22:27:52+02:00</updated>
+        <updated>2022-11-18T22:00:25+01:00</updated>
             <summary>
                 <![CDATA[
-                    Zaczynam powoli uzupełniać content, potrzeba dużo grafiki
+                        <img src="https://judytasobolak.pl/media/posts/1/Copy-of-Blush-Clean-Minimal-Step-by-Step-List-and-Call-to-Action-Carousel-Instagram-Post-1080-x-1080-px.png" alt="" />
+                    Zaczynam powoli&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://judytasobolak.pl/media/posts/1/Copy-of-Blush-Clean-Minimal-Step-by-Step-List-and-Call-to-Action-Carousel-Instagram-Post-1080-x-1080-px.png" class="type:primaryImage" alt="" /></p>
                 <p>Zaczynam powoli uzupełniać content, potrzeba dużo grafiki</p>
 
             ]]>

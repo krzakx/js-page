@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "judytasobolak.pl",
+    "title": "Kancelaria Adwokacka Judyta Sobolak",
     "description": "",
     "home_page_url": "https://judytasobolak.pl",
     "feed_url": "https://judytasobolak.pl/feed.json",
@@ -10,18 +10,34 @@
     },
     "items": [
         {
+            "id": "https://judytasobolak.pl/terminarz/",
+            "url": "https://judytasobolak.pl/terminarz/",
+            "title": "Terminarz",
+            "summary": "Czy co&hellip;",
+            "content_html": "<p>Czy co tam chcesz</p>",
+            "image": "https://judytasobolak.pl/media/posts/3/behnam-norouzi-PDVwLzOxKQE-unsplash.jpg",
+            "author": {
+                "name": "Judyta Sobolak"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-11-18T22:17:45+01:00",
+            "date_modified": "2022-11-18T22:18:51+01:00"
+        },
+        {
             "id": "https://judytasobolak.pl/hello-world/",
             "url": "https://judytasobolak.pl/hello-world/",
             "title": "Hello world",
-            "summary": "Zaczynam powoli uzupełniać content, potrzeba dużo grafiki",
+            "summary": "Zaczynam powoli&hellip;",
             "content_html": "<p>Zaczynam powoli uzupełniać content, potrzeba dużo grafiki</p>\n",
+            "image": "https://judytasobolak.pl/media/posts/1/Copy-of-Blush-Clean-Minimal-Step-by-Step-List-and-Call-to-Action-Carousel-Instagram-Post-1080-x-1080-px.png",
             "author": {
                 "name": "Judyta Sobolak"
             },
             "tags": [
             ],
             "date_published": "2022-10-26T22:27:12+02:00",
-            "date_modified": "2022-10-26T22:27:52+02:00"
+            "date_modified": "2022-11-18T22:00:25+01:00"
         }
     ]
 }
