@@ -1515,6 +1515,8 @@ textarea {
           user-select: none;
   z-index: 2;
   font-size: 1rem;
+  /* Kamil Dodałem */
+  right: 10px
 }
 @media screen and (min-width: 20rem) {
   .hero__inner {
@@ -2740,7 +2742,7 @@ textarea {
   width: 50%;
 }
 .footer__social {
-  margin-top: 4.2666666667rem;
+  /*margin-top: 4.2666666667rem;*/
 }
 @media all and (min-width: 37.5em) {
   .footer__social {
