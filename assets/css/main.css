@@ -891,7 +891,7 @@ textarea {
 }
 .header__reservation {
   letter-spacing: 0.1rem;
-  margin-right: auto;
+  margin-left: auto;
   text-transform: uppercase;
   z-index: 98;
 }
@@ -950,7 +950,6 @@ textarea {
 
 .navbar {
   z-index: 998;
-  margin-left: auto;
 }
 .navbar .navbar__menu {
   display: -webkit-box;
@@ -958,7 +957,6 @@ textarea {
   display: flex;
   list-style: none;
   margin: 0;
-  margin-right: auto;
   padding: 0;
 }
 @media all and (max-width: 56.1875em) {
@@ -1517,8 +1515,6 @@ textarea {
           user-select: none;
   z-index: 2;
   font-size: 1rem;
-  /* Kamil Dodałem */
-  right: 10px
 }
 @media screen and (min-width: 20rem) {
   .hero__inner {
@@ -2744,12 +2740,11 @@ textarea {
   width: 50%;
 }
 .footer__social {
-  /* Zakomentowałem bo nie działa nadpisywanie w CustomCSS
-  margin-top: 4.2666666667rem;*/
+  margin-top: 4.2666666667rem;
 }
 @media all and (min-width: 37.5em) {
   .footer__social {
-    /*margin-top: calc(var(--magic-number) * 8); */
+    margin-top: calc(var(--magic-number) * 8);
   }
 }
 .footer__social a {
