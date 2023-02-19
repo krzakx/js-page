@@ -1,0 +1,301 @@
+.card{
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+    border-radius:6px;
+    overflow:hidden;
+    position:relative;
+    transition:all .36s cubic-bezier(.1, .65, .41, .94);
+    will-change:transform
+}
+
+.card_dark {
+    background-color:#23252c;
+}
+
+
+.card ul {
+    text-align: left;
+    list-style: disc;
+    margin-left: 1rem;
+}
+
+.card-container{
+    display:grid;
+    gap:2rem;
+}
+@media all and (min-width:37.5em){
+    .card-container{
+        grid-template-columns:repeat(2,1fr)
+    }
+}
+@media all and (min-width:56.25em){
+    .card-container--col3{
+        grid-template-columns:repeat(3,1fr);
+        /*column-gap: 5%;*/
+    }
+}
+@media all and (min-width:56.25em){
+    .card-container--col4{
+        grid-template-columns:repeat(3,1fr)
+    }
+}
+@media all and (min-width:75em){
+    .card-container--col4{
+        grid-template-columns:repeat(4,1fr)
+    }
+}
+@media all and (min-width:56.25em){
+    .card-container--col5{
+        grid-template-columns:repeat(3,1fr)
+    }
+}
+@media all and (min-width:75em){
+    .card-container--col5{
+        grid-template-columns:repeat(4,1fr)
+    }
+}
+@media all and (min-width:100em){
+    .card-container--col5{
+        grid-template-columns:repeat(5,1fr)
+    }
+}
+@media all and (min-width:56.25em){
+    .card-container--col6{
+        grid-template-columns:repeat(3,1fr)
+    }
+}
+@media all and (min-width:75em){
+    .card-container--col6{
+        grid-template-columns:repeat(4,1fr)
+    }
+}
+@media all and (min-width:100em){
+    .card-container--col6{
+        grid-template-columns:repeat(5,1fr)
+    }
+}
+@media all and (min-width:120em){
+    .card-container--col6{
+        grid-template-columns:repeat(6,1fr)
+    }
+}
+.card:hover{
+    box-shadow:0 3px 16px rgba(0,0,0,.1);
+    transform:scale(1.05)
+}
+.card__image{
+    height:var(--cards-image-height);
+    overflow:hidden
+}
+.card__image>img{
+    display:block;
+    height:100%;
+    object-fit:var(--cards-image-settings);
+    object-position:var(--cards-image-align);
+    width:100%
+}
+.card__content{
+    font-size:.8239746086rem;
+    padding:0 2rem 2rem
+}
+.card__content--no-footer{
+    padding:0 2rem 2rem
+}
+.card__title{
+    font-size:1rem;
+    margin-top:1.9428571429rem
+}
+.card__title a:before{
+    background-color:transparent;
+    content:"";
+    display:block;
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    transition:background-color .1s ease-out;
+    width:100%;
+    z-index:1
+}
+.card__meta{
+    font-size:.7241964329rem;
+    font-family:var(--heading-font);
+    margin:1.4571428571rem 0 -.4857142857rem
+}
+.card__meta a{
+    background:var(--lightest);
+    border-radius:var(--border-radius);
+    padding:.2428571429rem .4857142857rem;
+    position:relative;
+    z-index:2
+}
+.card__meta a{
+    color:var(--link-color-hover);
+    text-decoration:none;
+    transition:all .14s ease-out
+}
+.card__meta a:hover{
+    color:var(--link-color)
+}
+.card__meta a:active{
+    color:var(--link-color)
+}
+.card__meta a:focus{
+    color:var(--link-color)
+}
+.card__footer{
+    border-top:1px solid var(--light);
+    font-family:var(--heading-font);
+    font-size:.6789341556rem;
+    font-weight:var(--font-weight-normal);
+    margin:1.2142857143rem 0 0;
+    align-items:end;
+    bottom:.9714285714rem;
+    display:flex;
+    justify-content:space-between;
+    overflow:hidden;
+    padding-top:.7285714286rem;
+    position:absolute;
+    width:calc(100% - 4rem)
+}
+.card__readlater{
+    display:inline-block;
+    line-height:1;
+    margin-left:auto;
+    padding:0;
+    z-index:2
+}
+.card__readlater>svg{
+    height:15px;
+    vertical-align:top;
+    width:10px
+}
+.card--dark{
+    background-color:var(--lighter);
+    box-shadow:none!important
+}
+
+
+/* Dodatkowe style pod wstążeczkę ribbon*/
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .ribbon::before,
+  .ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #2980b9;
+  }
+  .ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    background-color: #3498db;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font: 700 18px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  /* top left*/
+  .ribbon-top-left {
+    top: -10px;
+    left: -10px;
+  }
+  .ribbon-top-left::before,
+  .ribbon-top-left::after {
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+  .ribbon-top-left::before {
+    top: 0;
+    right: 0;
+  }
+  .ribbon-top-left::after {
+    bottom: 0;
+    left: 0;
+  }
+  .ribbon-top-left span {
+    right: -25px;
+    top: 30px;
+    transform: rotate(-45deg);
+  }
+  
+  /* top right*/
+  .ribbon-top-right {
+    top: -10px;
+    right: -10px;
+  }
+  .ribbon-top-right::before,
+  .ribbon-top-right::after {
+    border-top-color: transparent;
+    border-right-color: transparent;
+  }
+  .ribbon-top-right::before {
+    top: 0;
+    left: 0;
+  }
+  .ribbon-top-right::after {
+    bottom: 0;
+    right: 0;
+  }
+  .ribbon-top-right span {
+    left: -25px;
+    top: 30px;
+    transform: rotate(45deg);
+  }
+  
+  /* bottom left*/
+  .ribbon-bottom-left {
+    bottom: -10px;
+    left: -10px;
+  }
+  .ribbon-bottom-left::before,
+  .ribbon-bottom-left::after {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  .ribbon-bottom-left::before {
+    bottom: 0;
+    right: 0;
+  }
+  .ribbon-bottom-left::after {
+    top: 0;
+    left: 0;
+  }
+  .ribbon-bottom-left span {
+    right: -25px;
+    bottom: 30px;
+    transform: rotate(225deg);
+  }
+  
+  /* bottom right*/
+  .ribbon-bottom-right {
+    bottom: -10px;
+    right: -10px;
+  }
+  .ribbon-bottom-right::before,
+  .ribbon-bottom-right::after {
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+  .ribbon-bottom-right::before {
+    bottom: 0;
+    left: 0;
+  }
+  .ribbon-bottom-right::after {
+    top: 0;
+    right: 0;
+  }
+  .ribbon-bottom-right span {
+    left: -25px;
+    bottom: 30px;
+    transform: rotate(-225deg);
+  }

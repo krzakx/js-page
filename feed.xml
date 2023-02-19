@@ -96,29 +96,6 @@
         </content>
     </entry>
     <entry>
-        <title>Terminarz</title>
-        <author>
-            <name>Judyta Sobolak</name>
-        </author>
-        <link href="https://judytasobolak.pl/terminarz/"/>
-        <id>https://judytasobolak.pl/terminarz/</id>
-        <media:content url="https://judytasobolak.pl/media/posts/3/behnam-norouzi-PDVwLzOxKQE-unsplash.jpg" medium="image" />
-
-        <updated>2022-11-18T22:18:51+01:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://judytasobolak.pl/media/posts/3/behnam-norouzi-PDVwLzOxKQE-unsplash.jpg" alt="" />
-                    Czy co&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://judytasobolak.pl/media/posts/3/behnam-norouzi-PDVwLzOxKQE-unsplash.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Czy co tam chcesz</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
         <title>O mnie</title>
         <author>
             <name>Judyta Sobolak</name>

@@ -55,21 +55,6 @@
             "date_modified": "2023-01-30T23:57:34+01:00"
         },
         {
-            "id": "https://judytasobolak.pl/terminarz/",
-            "url": "https://judytasobolak.pl/terminarz/",
-            "title": "Terminarz",
-            "summary": "Czy co&hellip;",
-            "content_html": "<p>Czy co tam chcesz</p>",
-            "image": "https://judytasobolak.pl/media/posts/3/behnam-norouzi-PDVwLzOxKQE-unsplash.jpg",
-            "author": {
-                "name": "Judyta Sobolak"
-            },
-            "tags": [
-            ],
-            "date_published": "2022-11-18T22:17:45+01:00",
-            "date_modified": "2022-11-18T22:18:51+01:00"
-        },
-        {
             "id": "https://judytasobolak.pl/hello-world/",
             "url": "https://judytasobolak.pl/hello-world/",
             "title": "O mnie",
