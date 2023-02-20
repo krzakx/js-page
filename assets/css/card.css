@@ -11,6 +11,15 @@
     background-color:#23252c;
 }
 
+.card_white {
+    background-color:white;
+    color: black;
+}
+
+.card_white h2 {
+    color:black;
+}
+
 
 .card ul {
     text-align: left;
@@ -87,14 +96,14 @@
     overflow:hidden
 }
 .card__image>img{
-    display:block;
-    height:100%;
-    object-fit:var(--cards-image-settings);
-    object-position:var(--cards-image-align);
-    width:100%
+    /*display:block;*/
+    /*height:80%;
+    /*object-fit:var(--cards-image-settings);
+    object-position:var(--cards-image-align);*/
+    width:70%/*zmieniam z 100% na 80%*/
 }
 .card__content{
-    font-size:.8239746086rem;
+    font-size:1rem;
     padding:0 2rem 2rem
 }
 .card__content--no-footer{
